@@ -1,0 +1,94 @@
+body {
+  background-color: #292929;
+  color: #e8dcb7;
+  font-family: 'Fira Code', monospace;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.terminal {
+  padding: 20px;
+  border: 1px solid #3b4048;
+  background-color: #292929;
+  max-width: 80%;
+  width: 80%;
+  height: 80%;
+  overflow-y: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.input-line {
+  display: flex;
+  align-items: center;
+}
+
+.input-line::before {
+  margin-right: 5px;
+  color: #a5a742;
+}
+
+.input-area {
+  flex: 1;
+  border: none;
+  background: none;
+  color: inherit;
+  font-family: inherit;
+  outline: none;
+  caret-color: #a5a742;
+}
+
+.output {
+  white-space: pre-wrap;
+  color: #e8dcb7;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.output .command {
+  color: #a5a742;
+}
+
+.output .error {
+  color: #e49386;
+}
+
+.output .directory {
+  color: #98a19e;
+}
+
+.output .file {
+  color: #e8dcb7;
+}
+
+.output .current-dir {
+  color: #e8dcb7;
+}
+
+.welcome {
+  color: #e8dcb7;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+pre.banner {
+  color: #e9c160;
+  word-wrap: break-word;
+}
+
+.prompt {
+  color: #67d19d;
+}
+
+a {
+  color: #a5a742;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
