@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/gavilanbe/devops-portfolio/compare/v1.1.0...v1.2.0) (2025-06-14)
+
+
+### Features
+
+* add simple SPA with blog and terminal link ([104c500](https://github.com/gavilanbe/devops-portfolio/commit/104c500fcd6bea27977112273adf5ca1b305c8ce))
+
 # [1.1.0](https://github.com/gavilanbe/devops-portfolio/compare/v1.0.0...v1.1.0) (2024-05-22)
 
 
